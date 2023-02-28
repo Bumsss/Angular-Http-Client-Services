@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#tname {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#tname td {
+  border: 3px solid #ddd;
+  padding: 8px;
+}
+
+#tname tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#tname tr:hover {
+  background-color: #ddd;
+}
+
+#tname th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #272727;
+  color: white;
+}
+
+h5 {
+  font-size: 30px;
+}
